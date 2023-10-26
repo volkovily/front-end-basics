@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.flag {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #cc0000;
+    border: 1px solid black;
+}
+
+.transform {
+    margin-left: 10px;
+}
+
+.plus-position {
+    position: absolute;
+    background-color: white;
+}
+
+.horizontal-line-position {
+    width: 120px;
+    height: 40px;
+    top: 80px;
+    left: 40px;
+    border-radius: 5px;
+}
+
+.vertical-line-position {
+    width: 40px;
+    height: 120px;
+    top: 40px;
+    left: 80px;
+    border-radius: 5px;
+}
+
+.plus-transform {
+    background-color: white;
+}
+
+.horizontal-line-transform {
+    width: 120px;
+    height: 40px;
+    transform: translate(33%, 200%);
+    border-radius: 5px;
+    top: 100px;
+}
+
+.vertical-line-transform {
+    width: 40px;
+    height: 120px;
+    transform: translate(200%, 0%);
+    border-radius: 5px;
+}
