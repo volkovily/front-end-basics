@@ -1,0 +1,44 @@
+body {
+    font: 30px Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+  }
+  
+  .container {
+    display: flex;
+    background-color: rgb(0, 157, 255);
+  }
+  
+  .image {
+    width: 50%;
+  }
+  
+  .text1 {
+    width: 50%;
+    float: right;
+    background-color: rgb(103, 197, 255);
+    padding: 10px;
+  }
+
+  .text-flex {
+    flex: 1;
+    background-color: rgb(103, 197, 255);
+    padding: 10px;
+  }
+
+  .text2 {
+    padding: 10px;
+  }
+  
+  .text-image2 {
+    background-color: rgb(255, 206, 252);
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+  }
+  
