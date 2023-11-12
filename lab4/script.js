@@ -31,7 +31,7 @@ element2.addEventListener('click', () => {
 
 // task2
 const imageContainer = document.getElementById('image-container');
-const image = document.getElementById('image');
+let image = document.getElementById('image');
 const addButton = document.getElementById('add');
 const increaseButton = document.getElementById('increase');
 const decreaseButton = document.getElementById('decrease');
