@@ -66,3 +66,23 @@ body {
     color: #333;
     font-size: 13px;
   }
+
+  td {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .tbl {
+    margin-left: 50px;
+    position: relative;
+  }
+
+  #colorPicker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
