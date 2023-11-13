@@ -12,25 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
       for (let j = 0; j < 6; j++) {
         const cell = row.insertCell();
         cell.textContent = counter;
-  
-        cell.addEventListener('mouseover', function () {
-          if (cell.textContent === '32') {
-            changeColorRandom(cell);
-          }
-        });
-  
-        cell.addEventListener('click', function () {
-          if (cell.textContent === '32') {
-            changeColorPalette(cell);
-          }
-        });
-  
-        cell.addEventListener('dblclick', function () {
-          if (cell.textContent === '32') {
-            changeColumnColor(cell.cellIndex);
-          }
-        });
-  
+        if (cell.textContent === '32') {
+            cell.addEventListener('mouseover', () => changeColorRandom(cell));
+            cell.addEventListener('click', () => changeColorPalette(cell));
+            cell.addEventListener('dblclick', () => changeColumnColor(cell.cellIndex));
+        }        
         counter++;
       }
     }
