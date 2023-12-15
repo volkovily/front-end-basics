@@ -380,3 +380,43 @@ body {
   width: calc(50% - 30px);
   word-wrap: break-word;
 }
+
+@media (max-width: 768px) {
+  .title {
+    width: 100%;
+  }
+
+  .live-img,
+  .live-container,
+  .coffe-block {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .live-img {
+    margin-bottom: 30px;
+  }
+
+  .coffe-block {
+    width: 100%;
+  }
+
+  .gallery-img-last {
+    width: 100%;
+  }
+
+  .gallery-imgs-small,
+  .gallery-imgs-big {
+    width: 100%;
+  }
+
+  .reviews-meter-item {
+    width: 100%;
+  }
+
+  .reviews-block,
+  .post {
+    width: 100%;
+  }
+}
